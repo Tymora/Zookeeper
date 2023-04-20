@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ~
+- text: compare
+- text: ==
+- text: ~~
+- text: ===
+- text: is
+- text: =
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11237#comment
+status: Solved
+record: -1
+custom_name: How to compare?
+local_check: false

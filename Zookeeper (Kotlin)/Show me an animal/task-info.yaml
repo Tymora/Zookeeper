@@ -1,0 +1,80 @@
+type: edu
+custom_name: Show me an animal!
+files:
+- name: src/Zookeeper.kt
+  visible: true
+  text: |-
+    var camel = """Switching on the camera in the camel habitat...
+     ___.-''''-.
+    /___  @    |
+    ',,,,.     |         _.'''''''._
+         '     |        /           \
+         |     \    _.-'             \
+         |      '.-'                  '-.
+         |                               ',
+         |                                '',
+          ',,-,                           ':;
+               ',,| ;,,                 ,' ;;
+                  ! ; !'',,,',',,,,'!  ;   ;:
+                 : ;  ! !       ! ! ;  ;   :;
+                 ; ;   ! !      ! !  ; ;   ;,
+                ; ;    ! !     ! !   ; ;
+                ; ;    ! !    ! !     ; ;
+               ;,,      !,!   !,!     ;,;
+               /_I      L_I   L_I     /_I
+    Look at that! Our little camel is sunbathing!"""
+
+
+    fun main() {
+        // write your code here
+    }
+  learner_created: false
+- name: test/ZookeeperTest.kt
+  visible: false
+  text: |-
+    import org.hyperskill.hstest.dynamic.DynamicTest
+    import org.hyperskill.hstest.stage.StageTest
+    import org.hyperskill.hstest.testcase.CheckResult
+    import org.hyperskill.hstest.testing.TestedProgram
+
+    class ZookeeperTest : StageTest<String>() {
+
+        val camel = """Switching on the camera in the camel habitat...
+     ___.-''''-.
+    /___  @    |
+    ',,,,.     |         _.'''''''._
+         '     |        /           \
+         |     \    _.-'             \
+         |      '.-'                  '-.
+         |                               ',
+         |                                '',
+          ',,-,                           ':;
+               ',,| ;,,                 ,' ;;
+                  ! ; !'',,,',',,,,'!  ;   ;:
+                 : ;  ! !       ! ! ;  ;   :;
+                 ; ;   ! !      ! !  ; ;   ;,
+                ; ;    ! !     ! !   ; ;
+                ; ;    ! !    ! !     ; ;
+               ;,,      !,!   !,!     ;,;
+               /_I      L_I   L_I     /_I
+    Look at that! Our little camel is sunbathing!"""
+
+        @DynamicTest
+        fun test(): CheckResult {
+            val testedProgram = TestedProgram();
+            val output = testedProgram.start().trim();
+
+            if (output != camel) {
+                return CheckResult.wrong("You should output a camel!");
+            }
+
+            return CheckResult.correct()
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/196/stages/976/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 15 Apr 2023 19:45:59 UTC
+record: 2

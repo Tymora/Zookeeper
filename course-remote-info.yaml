@@ -1,0 +1,84 @@
+hyperskill_project:
+  id: 196
+  ide_files: https://stepik.org/media/attachments/lesson/557366/additional_files.json
+  is_template_based: true
+  use_ide: true
+update_date: Tue, 18 Apr 2023 18:20:04 UTC
+stages:
+- id: 975
+  step: 14133
+  is_completed: true
+- id: 976
+  step: 14134
+  is_completed: true
+- id: 977
+  step: 14135
+  is_completed: true
+- id: 978
+  step: 14136
+  is_completed: true
+topics:
+  0:
+  - title: Introduction to Kotlin
+    theory_id: 4350
+  - title: Basic literals
+    theory_id: 4351
+  - title: Overview of the basic program
+    theory_id: 4362
+  - title: Values and variables
+    theory_id: 4371
+  - title: Val variables
+    theory_id: 17408
+  - title: Data types
+    theory_id: 4388
+  - title: Standard output
+    theory_id: 4425
+  - title: Invoking functions
+    theory_id: 4575
+  1:
+  - title: Units of information
+    theory_id: 6865
+  - title: The classification of basic types
+    theory_id: 4455
+  - title: Type conversion
+    theory_id: 4672
+  - title: Standard input with Java Scanner
+    theory_id: 4445
+  - title: String basics
+    theory_id: 12553
+  - title: Boolean and logical operations
+    theory_id: 4515
+  - title: Objects
+    theory_id: 11233
+  2:
+  - title: Binary numbers
+    theory_id: 5544
+  - title: Hexadecimal numbers
+    theory_id: 8788
+  - title: Reading data with a readln
+    theory_id: 11224
+  - title: Arithmetic operations
+    theory_id: 4472
+  - title: Type of the numeric expression
+    theory_id: 9506
+  - title: Increment and decrement
+    theory_id: 10776
+  - title: Integers in action
+    theory_id: 4488
+  - title: Relational operators
+    theory_id: 4525
+  - title: Unicode
+    theory_id: 7899
+  - title: Characters
+    theory_id: 4680
+  - title: Introduction to MutableList
+    theory_id: 14879
+  3:
+  - title: String templates
+    theory_id: 4547
+  - title: If expression
+    theory_id: 4625
+  - title: Repeating blocks
+    theory_id: 4643
+  - title: While loops
+    theory_id: 4659

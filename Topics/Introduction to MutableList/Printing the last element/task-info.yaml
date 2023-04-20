@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: println(mutList[mutList.size])
+- text: println(mutList[mutList.size - 2])
+- text: println(mutList[-1])
+- text: println(mutList[mutList.size + 1])
+- text: println(mutList[mutList.size - 1])
+- text: println(mutList[mutList.lastIndex])
+- text: println(mutList.last())
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14880#comment
+status: Solved
+record: -1
+local_check: false

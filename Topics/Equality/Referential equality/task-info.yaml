@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "val pirateJackSparrow = Sailor(\"None\")\nval captainJackSparrow = Sailor(\"\
+    None\") \n// put your code here"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11243#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 18 Apr 2023 13:28:36 UTC
+record: -1

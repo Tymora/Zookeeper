@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: numbers1 == numbers2
+- text: numbers2 == numbers3
+- text: numbers4 == numbers2
+- text: numbers1 == numbers1
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14889#comment
+status: Solved
+record: -1
+local_check: false
